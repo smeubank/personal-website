@@ -1,3 +1,8 @@
+Personal website for non-commercial purposes
+
+http://www.steven-eubank.com/
+
+
 Thanks for downloading this template!
 
 Template Name: iPortfolio
