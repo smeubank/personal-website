@@ -2,7 +2,7 @@ My Serverless Personal Website
 
 http://www.steven-eubank.com/
 
-
+../blob/master/assets/img/serverless-architecture.PNG
 
 Thanks for downloading this template!
 
