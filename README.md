@@ -2,7 +2,8 @@ My Serverless Personal Website
 
 http://www.steven-eubank.com/
 
-https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-architecture.PNG?raw=true
+![alt text](https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-architecture.PNG?raw=true)
+
 
 Thanks for downloading this template!
 
