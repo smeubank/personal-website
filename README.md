@@ -6,11 +6,11 @@ http://www.steven-eubank.com/
 
 What started out as a desire to have my own profile, turned into a project which would allow anyone to see a simple example of how easy it is to host content in the cloud. Then, further allow anyone to contribute to the site as a casual user and trigger an automated CI/CD pipeline.
 
-So, simple enough the above website is [serverless](https://en.wikipedia.org/wiki/Serverless_computing), and all that really means is that it takes advantage of the next stage of the cloud, where the content creator (you, me, anyone) does not have to worry anymore above configuring any cloud compute instance (EC2) or storage (databases) and so on. Of course there are pros and cons, but it does allow for rapid prototyping at the very least with little no costs.
+So, simple enough the above website is [serverless](https://en.wikipedia.org/wiki/Serverless_computing), and all that really means is that it takes advantage of the next stage of the cloud, where the content creator (you, me, anyone) does not have to worry anymore above configuring any cloud compute instance (EC2) or storage (databases) and so on. Of course there are pros and cons, but it does allow for rapid prototyping at the very least with little to no costs.
 
 Navigate to the site, and in the "about" section towards the top there are links to how to create a fork and pull request on a GitHub repo, if you never have before. To protect the site, and make sure it stays safe for work and school purposes, I will not merge any inappropriate PRs.
 
-Below you will find more details and links about how all this works, so you can figure out how to set this up on your very own! Otherwise feel free to contribute to the page as stated above, and get some hands cloud/serverless/CI/CD experience :D !!
+Below you will find more details and links about how all this works, so you can figure out how to set this up on your very own! Otherwise feel free to contribute to the page as stated above, and get some hands-on cloud/serverless/CI/CD experience :D !!
 
 *from time of merge to delivery of your code changes is about 1 minutes, if you don't see your changes on the site directly, double check with dev mode in your browser if the HTML has your changes, they just aren't visible for some reason*
 
