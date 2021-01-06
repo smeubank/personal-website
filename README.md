@@ -6,7 +6,7 @@ http://www.steven-eubank.com/
 
 What started out as a desire to have my own profile, turned into a project which would allow anyone to see a simple example of how easy it is to host content in the cloud. Then, further even allow any casual user to contribute to the site as a casual user and take part in a kind of simplified CI/CD pipeline.
 
-So, simple enough the above website is !["serverless"](https://en.wikipedia.org/wiki/Serverless_computing), and all that really means is that it takes advantage of the next stage of the cloud, where the content creator (you, me, anyone) does not have to worry anymore above configuring any cloud compute instance (EC2) or storage (databases) and so on. Of course there are pros and cons, but it does allow for rapid prototyping at the very least with little no costs.
+So, simple enough the above website is [serverless](https://en.wikipedia.org/wiki/Serverless_computing), and all that really means is that it takes advantage of the next stage of the cloud, where the content creator (you, me, anyone) does not have to worry anymore above configuring any cloud compute instance (EC2) or storage (databases) and so on. Of course there are pros and cons, but it does allow for rapid prototyping at the very least with little no costs.
 
 Navigate to the site, and in the "about" section towards the top there are links to how to create a fork and pull request on a GitHub repo, if you never have before. To protect the site, and make sure it stays safe for work and school purposes, I will not merge any inappropriate PRs.
 
