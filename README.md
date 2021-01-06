@@ -37,6 +37,7 @@ Once you have everything served up for your visitors, you don't want to have to 
 * GitHub - version control provider using Git, this is not the only Git provider, AWS also has some service
 * [AWS CodePipeline:](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-s3deploy.html) This takes care that whenever the main branch of this repo is changed, a webook will trigger the build to collect the code, then deploy it to S3 and finally to solve the issue with CloudFront data cache and TTL (time to live), triggers a Lambda function which will "invalidate"
 * [AWS Lambda:](https://medium.com/@yagonobre/automatically-invalidate-cloudfront-cache-for-site-hosted-on-s3-3c7818099868) - serverless code, massively simplifies running code on the internet to big or small tasks, in this case just making sure visitors always see the latest version of the web content, and setting the build job to "completed"
+** [This lambda function](https://github.com/smeubank/invalidate-cache-lambda) is also set up so that it can be automatically deployed upon change
 
 All of this generally takes about 45 seconds in my experience, so if look for your changes after the PR is merged that is about how long it will take.
 
