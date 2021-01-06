@@ -18,7 +18,7 @@ Below you will find more details and links about how all this works, so you can 
 
 ### All the Bells and Whistles
 
-All the major Cloud providers today (Amazon AWS, Microsoft Azure, Google Cloud Platform) provide some form of serverless, but AWS is arguable the most widely known. This site is done only with AWS, (excluding GitHub of course) but I am sure similar or same could be done with the other major providers as well. All of this will be useful when doing any AWS certifications as well.
+All the major Cloud providers today (Amazon AWS, Microsoft Azure, Google Cloud Platform) provide some form of serverless, but AWS is arguably the most widely known. This site is done only with AWS, (excluding GitHub of course) but I am sure similar or the same could be done with the other major providers. All of this will be useful when doing any AWS certifications as well.
 
 *many of the links below are simply for help, I did not use or even read them all TLDR*
 
