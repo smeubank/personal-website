@@ -4,7 +4,7 @@ http://www.steven-eubank.com/
 
 ## Purpose
 
-What started out as a desire to have my own profile, turned into a project which would allow anyone to see a simple example of how easy it is to host content in the cloud. Then, further even allow any casual user to contribute to the site as a casual user and take part in a kind of simplified CI/CD pipeline.
+What started out as a desire to have my own profile, turned into a project which would allow anyone to see a simple example of how easy it is to host content in the cloud. Then, further allow anyone to contribute to the site as a casual user and trigger an automated CI/CD pipeline.
 
 So, simple enough the above website is [serverless](https://en.wikipedia.org/wiki/Serverless_computing), and all that really means is that it takes advantage of the next stage of the cloud, where the content creator (you, me, anyone) does not have to worry anymore above configuring any cloud compute instance (EC2) or storage (databases) and so on. Of course there are pros and cons, but it does allow for rapid prototyping at the very least with little no costs.
 
@@ -35,7 +35,7 @@ All the major Cloud providers today (Amazon AWS, Microsoft Azure, Google Cloud P
 Once you have everything served up for your visitors, you don't want to have to start from scratch everytime when maintaining your code and putting in S3. At least I am too lazy for that. So what should you do? Set up a build pipeline. This one is very simple. And I will describe as above with the architecture.
 
 * GitHub - version control provider using Git, this is not the only Git provider, AWS also has some service
-* [AWS CodePipeline:](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-s3deploy.html) This takes care that whenever the main branch of this repo is changed, a webook will trigger the build to collect the code, then deploy it to S3 and finally to solve the issue with CloudFront data cache and TTL (time to live), triggers a Lambda function which will "invalidate"
+* [AWS CodePipeline:](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-s3deploy.html) Jenkins is an industry standard example, this takes care that whenever the main branch of this repo is changed, a webook will trigger the build to collect the code, then deploy it to S3 and finally to solve the issue with CloudFront data cache and TTL (time to live), triggers a Lambda function which will "invalidate"
 * [AWS Lambda:](https://medium.com/@yagonobre/automatically-invalidate-cloudfront-cache-for-site-hosted-on-s3-3c7818099868) - serverless code, massively simplifies running code on the internet to big or small tasks, in this case just making sure visitors always see the latest version of the web content, and setting the build job to "completed"
 ** [This lambda function](https://github.com/smeubank/invalidate-cache-lambda) is also set up so that it can be automatically deployed upon change
 
