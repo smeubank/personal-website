@@ -28,7 +28,7 @@ All the major Cloud providers today (Amazon AWS, Microsoft Azure, Google Cloud P
 * AWS Certificate Manager: non-mandatory, if you read through the S3 documentation, basically you will learn your site will only be HTTP, and with this you can make it HTTPS, which protects your visitors' data. Again a bit overkill since the site is not asking for any info from visitors, but important for learning.
 * [Route 53;](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html) non-mandatory, and pretty much the only thing here which would cost you any meaningful amount of money, but important when understanding how web traffic works.
 
-![alt text](https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-architecture.PNG?raw=true)
+![alt text](https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-architecture-b.PNG?raw=true)
 
 ### Build pipeline:
 
@@ -41,7 +41,7 @@ Once you have everything served up for your visitors, you don't want to have to 
 
 All of this generally takes about 1 minute in my experience, so if look for your changes after the PR is merged that is about how long it will take.
 
-![alt text](https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-site-build-pipeline.PNG?raw=true)
+![alt text](https://github.com/smeubank/personal-website/blob/master/assets/img/serverless-site-build-pipeline-b.PNG?raw=true)
 
 Thanks for downloading this template!
 
