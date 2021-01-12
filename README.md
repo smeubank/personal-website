@@ -1,4 +1,4 @@
-# Serverless Website and Delivery Project
+# Serverless GitOps Demo Project
 
 http://www.steven-eubank.com/
 
