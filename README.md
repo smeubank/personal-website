@@ -1,4 +1,4 @@
-# Serverless GitOps Demo Project
+# Serverless GitOps Demo 
 
 http://www.steven-eubank.com/
 
