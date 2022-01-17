@@ -6,7 +6,7 @@ Sentry.init({
   integrations: [new Sentry.Integrations.BrowserTracing()],
 
   // To set a uniform sample rate
-  tracesSampleRate: 0.2
+  tracesSampleRate: 1.0
 
   // Alternatively, to control sampling dynamically
   // tracesSampler: samplingContext => { ... }
