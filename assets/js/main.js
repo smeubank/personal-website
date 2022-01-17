@@ -1,3 +1,17 @@
+Sentry.init({
+  dsn: "https://fa5b1c56d73b4ebe8778f816dff2cf3f@o673219.ingest.sentry.io/6152144",
+
+  // This enables automatic instrumentation (highly recommended), but is not
+  // necessary for purely manual usage
+  integrations: [new Sentry.Integrations.BrowserTracing()],
+
+  // To set a uniform sample rate
+  tracesSampleRate: 0.2
+
+  // Alternatively, to control sampling dynamically
+  // tracesSampler: samplingContext => { ... }
+});
+
 /**
 * Template Name: iPortfolio - v2.0.3
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
