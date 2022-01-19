@@ -1,6 +1,7 @@
 Sentry.init({
   dsn: "https://fa5b1c56d73b4ebe8778f816dff2cf3f@o673219.ingest.sentry.io/6152144",
   environment: "production",
+  release: "personal-site@1.0.1",
   
   // This enables automatic instrumentation (highly recommended), but is not
   // necessary for purely manual usage
